@@ -1,0 +1,45 @@
+.headcardvideo{
+  
+    margin-top: 100px;
+    
+}
+@media only screen and (max-width: 1024px){
+    .headcardvideo{
+        margin-top: -200px;
+    }
+}
+
+.heading{
+position: relative;
+color: #111;
+margin-left: 130px;
+font-size: 50px;
+
+} 
+
+
+ @media only screen and (max-width: 1024px){
+.heading{
+       margin-left: 60px;
+
+     
+    }
+
+}  
+@media only screen and (max-width: 768px){
+    .heading{
+      
+         font-size: 25px
+        }
+    
+    }  
+    @media only screen and (max-width: 475px){
+        .heading{
+           
+             font-size: 30px;
+             margin-left: 35px;
+            }
+        
+        }
+
+

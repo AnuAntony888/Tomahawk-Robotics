@@ -1,0 +1,170 @@
+.carousel{
+    margin-top: -100px;
+
+    width: 100%;
+    height: 97vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+cursor: grab;
+  
+    background: url(https://i.pinimg.com/originals/84/9f/51/849f5129fe0f7a5cf44c0f444051a3b0.jpg); 
+}
+.carohead{
+    margin-left: 130px;
+    margin-top: 30px;
+  
+}
+@media only screen and (max-width: 1024px){
+ .carohead{
+    margin-top: 5px;
+ }   
+}
+.caropara{
+    margin-left: 130px;
+    margin-top: 30px;
+    text-align: left;
+   
+  
+}
+@media only screen and (max-width: 1024px){
+    .caropara{
+       margin-top: -10px;
+    }   
+   }
+.caroimg{
+  margin-right: 200px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 1024px){
+    .caroimg{
+       margin-top: -20px;
+       margin-right: 100px;
+    }   
+   }
+.carobutton{
+    margin-left: 130px;
+   
+  margin-top:30px ;
+    background: transparent;
+    padding:  20px;
+    
+    font-size: 16px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 750;
+   
+    transition: 0.7s;
+}
+.carobutton:hover{
+    transform: scale(1.05);
+ }
+
+
+ /* tab */
+ 
+
+
+
+ .caroheadtab{
+    margin-top: 80px;
+    margin-left: 60px;
+   
+ }
+
+ @media only screen and (max-width: 425px){
+   .caroheadtab{
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 20px;
+   }   
+  }
+  @media only screen and (max-width: 375px){
+   .caroheadtab{
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 22px;
+   }   
+  } 
+  @media only screen and (max-width: 320px){
+   .caroheadtab{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 18px;
+   }   
+  }
+
+ .caroparatab{
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-right: 50px;   
+ }
+ @media only screen and (max-width: 425px){
+   .caroparatab{
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 13px;
+   }   
+  }
+  @media only screen and (max-width: 375px){
+   .caroparatab{
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 12px;
+   }   
+  }
+  @media only screen and (max-width: 320px){
+   .caroparatab{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 10px;
+   }   
+  }
+
+
+ .carotabbutton{
+
+    margin-left: 60px;
+    margin-top:30px ;
+      background: transparent;
+      padding:  15px;
+      
+      font-size: 16px;
+      border: 2px solid #fff;
+      color: #fff;
+      font-weight: 750;
+     
+      transition: 0.7s;    
+ }
+ @media only screen and (max-width: 425px){
+   .carotabbutton{
+      margin-left: 20px;
+      margin-top: 10px;
+      font-size: 10px;
+      padding:  10px;
+   }   
+  }
+
+  @media only screen and (max-width: 375px){
+   .carotabbutton{
+      margin-left: 20px;
+      margin-top: -5px;
+      font-size: 10px;
+      padding:  10px;
+   }   
+  }
+  @media only screen and (max-width: 320px){
+   .carotabbutton{
+      margin-left: 20px;
+      margin-top: -5px;
+      font-size: 10px;
+      padding:  10px;
+   }   
+  }
+
+
+ .carotabbutton:hover{
+    transform: scale(1.05);
+ }
+
+ 

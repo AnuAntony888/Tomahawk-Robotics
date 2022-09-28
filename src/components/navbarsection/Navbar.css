@@ -1,0 +1,87 @@
+#appbar{
+    background-color: transparent;
+     
+}
+#appbar1{
+    background-color: black;
+     
+}
+
+.navbut{
+    width: 100%;
+    height: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    border-color: #fff;
+    color: #fff;
+    background:black;
+   font-weight: 600;
+   border:2px solid ;
+   transition: 0.3s;
+}
+.navbut2{
+    width: 30%;
+    height: 45px;
+    
+    margin-top: 25px;
+    margin-left: 30px;
+    border-color: #fff;
+    color: #fff;
+    background:black;
+ 
+   border:2px solid ;
+   letter-spacing: 2;
+}
+
+.links{
+color: #fff;
+text-decoration: none;
+position: relative;
+}
+
+.links::after{
+    content: "";
+    position: absolute;
+    background-color:   #0c72ae;
+    height: 2px;
+    width: 0;
+    left: 0;
+
+ bottom: -3px;
+transition: 0.3s;
+}
+.links:hover::after{
+    width: 100%;
+}
+.links:hover{
+    color: #fff;
+    text-decoration: none;
+    
+    }
+
+.navbut:hover{
+    transform: scale(1.05);
+    }
+    .navtxt{
+        font-size: 30px;
+       margin-left: -10px;
+        background-color: black;
+        color: #fff;
+    }
+
+.navsel{
+    margin-left:30px ;
+    width: 80%;
+    background-color: black;
+    height: 50px;
+    border: 2px solid ;
+  
+}    
+ @media only screen and (min-width: 320px) {
+
+    #responsive{
+       margin-top: -5px;
+    
+    }
+} 

@@ -1,0 +1,210 @@
+.trusted {
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    position: relative;
+
+
+}
+
+.trust {
+    margin-left: 115px;
+    transform: translateY(-280px);
+}
+
+@media only screen and (max-width: 768px) {
+    .trust {
+        transform: translateY(50px);
+        margin-left: 30px;
+        font-size: 27px;
+    }
+}
+
+.trustpara {
+    margin-left: 160px;
+    transform: translateY(-300px);
+}
+
+@media only screen and (max-width: 768px) {
+    .trustpara {
+        transform: translateY(40px);
+        margin-left: 85px;
+    }
+}
+
+/* customercards */
+
+.customercards {
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 80px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .customercards {
+
+        transform: translateY(330px);
+        margin-left: -20px;
+    }
+}
+
+/* knowmore */
+.knowmore {
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    position: relative;
+}
+
+.knowtext {
+    margin-left: 115px;
+    transform: translateY(-250px);
+}
+
+@media only screen and (max-width: 768px) {
+    .knowtext {
+        transform: translateY(50px);
+        margin-left: 30px;
+        font-size: 27px;
+    }
+}
+
+.knowpara {
+    margin-left: 160px;
+    transform: translateY(-264px);
+}
+
+@media only screen and (max-width: 768px) {
+    .knowpara {
+        transform: translateY(30px);
+        margin-left: 85px;
+    }
+}
+
+.knowbutton {
+    transform: translateY(-250px);
+}
+
+@media only screen and (max-width: 768px) {
+    .knowbutton {
+        transform: translateY(60px);
+
+    }
+}
+
+.knowbut {
+    margin-left: 115px;
+
+
+    background: transparent;
+    padding: 20px;
+
+    font-size: 16px;
+    border: 2px solid #000;
+    font-weight: 750;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    transition: 0.7s;
+}
+
+@media only screen and (max-width: 768px) {
+    .knowbut {
+        margin-left: 30px;
+        padding: 15px;
+    }
+}
+
+.knowbut:hover {
+    transform: scale(1.05);
+}
+
+.vl2 {
+    border-left: 4px solid #0c72ae;
+    height: 82px;
+    position: absolute;
+    top: -12.9em;
+    left: 140px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .vl2 {
+        height: 110px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .vl2 {
+        height: 130px;
+        top: 7.3em;
+        left: 70px;
+    }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .vl2 {
+        height: 285px;
+        top: 7em;
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .vl2 {
+        height: 365px;
+        top: 7em;
+        left: 70px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .vl2{
+        height: 450px;
+        top:7em;
+        left: 70px;
+}
+}
+
+.vl3 {
+    border-left: 4px solid #0c72ae;
+    height: 82px;
+    position: absolute;
+    top: -10.7em;
+    left: 144px;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+ .vl3{
+    top: -10.9em;
+    height: 110px;
+ }
+
+  }  
+
+  
+  @media only screen and (max-width: 768px) {
+    .vl3{
+        height: 130px;
+        top: 6.9em;
+        left: 70px;
+    }
+}  
+
+@media only screen and (max-width: 425px) {
+    .vl3{
+        height: 270px;
+        top: 6.9em;
+        left: 70px;
+    }
+} 
+@media only screen and (max-width: 375px) {
+    .vl3{
+        height: 430px;
+        top: 7.9em;
+        left: 70px;
+    }
+}

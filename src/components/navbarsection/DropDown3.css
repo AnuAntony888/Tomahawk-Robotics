@@ -1,0 +1,36 @@
+.dropdown-menu3{
+    width: 120px;
+    position: absolute;
+    justify-content: start;
+    align-items: start;
+    top: 47px;
+    left:"200px";
+    list-style: none;
+    text-align: start;
+    line-height: 32px;
+    text-decoration: none;
+background-color: black;
+
+}
+.dropdown-menu3 li{
+   
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropdown-menu3 a{
+    
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 14px;
+    
+    
+}
+
+.dropdown-menu3 a:hover{
+  color: cornflowerblue;
+}
+.dropdown-menu3.clicked{
+    display: none;
+}

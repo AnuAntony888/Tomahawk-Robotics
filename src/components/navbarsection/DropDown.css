@@ -1,0 +1,36 @@
+.dropdown-menu{
+ width: 180px;
+    position: absolute;
+    top: 47px;
+
+    list-style: none;
+    line-height: 32px;
+    text-decoration: none;
+background: black;
+
+}
+.dropdown-menu li{
+ 
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropdown-menu a{
+ 
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 14px;
+    
+    
+}
+
+.dropdown-menu a:hover{
+  color: cornflowerblue;
+  text-decoration: none;
+}
+.dropdown-menu.clicked{
+    display: none;
+}
+
+

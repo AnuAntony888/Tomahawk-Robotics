@@ -1,0 +1,237 @@
+video{
+object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position:  relative;
+    /* z-index: -1; */
+    
+
+}
+/* @media only screen and (max-width: 1024px),
+screen and (max-height: 1058px){
+    video{
+        height: 110vh;
+        margin-top: -300px;
+    }
+
+} */
+@media only screen and (max-width: 1024px){
+    video{
+        width: 100%;
+        height: 165vh;
+     top: -300px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    video{
+        width: 100%;
+        /* height: auto; */
+      top: -300px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    video{
+        width: 100%;
+        /* height: auto; */
+      top: -300px;
+    }
+
+}
+ @media only screen and (max-width: 375px){
+    video{
+        width: 100%;
+        /* height: auto; */
+    top: -300px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    video{
+        width: 100%;
+        /* height: auto; */
+        top: -300px;
+    }
+
+} 
+
+.banner{
+    /* background: url();  */
+    /* height: 100vh; */
+    width: 100%;
+    display: flex; 
+     /* flex-direction: column;  */
+     align-items: center; 
+     /* object-fit: cover; */
+     position: relative;
+     
+}
+.banh1{
+    position: absolute;
+    color: #fff;
+top:70px;
+left: 150px;
+    font-size: 90px;
+  
+    display: block;
+
+
+}
+.line{
+    position: absolute;
+    top: 355px;
+    left: 150px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+   width: 120px;
+    height: 4px;
+    border-width: 0;
+    color: #0c72ae;
+    background-color: #0c72ae;
+   
+}
+
+.banh2{
+    position: absolute;
+    top:350px;
+ left: 150px;
+  color: #fff;
+  margin-top: 40px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+  
+    line-height: 1.1em;
+}
+.button{
+    display: inline-flex;
+    position: absolute;
+   left: 150px;
+  top: 450px;
+  background: transparent;
+
+}
+ .btns{
+   background:transparent;
+   font-size: 18px;
+   font-weight: bold;
+ padding: 18px;
+ color: #fff;
+ border-color:#fff ;
+ border: 2px solid #fff;
+ transition: 0.7s;
+} 
+.btns:hover{
+    transform: scale(1.05);
+}
+.banicon{
+    position: absolute;
+left: 150px;
+top: 525px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    line-height: 1.3em;
+    color: #fff;
+  
+}
+
+@media only screen and (max-width: 1024px){
+    .banh1{
+       left: 60px;
+    top: 100px;
+        font-size: 70px;
+        display: block;
+    }
+    .line{
+       left: 60px; 
+    }
+    .banh2{
+       left: 60px; 
+    }
+    .button{
+       left: 60px; 
+    }
+    .btn{
+     left: 60px; 
+    }
+    .banicon{
+       left: 60px; 
+    }
+} 
+@media only screen and (max-width: 768px){
+    .banh1{
+     font-size: 34px;
+     top: 180px;
+    }
+    
+    .banh2{
+        font-size: 23px;
+    }
+    .button{
+       left: 60px; 
+    }
+    .btn{
+      left: 60px; 
+    }
+    .banicon{
+     left: 60px; 
+    }
+} 
+@media only screen and (max-width: 425px){
+    .banh1{
+        left: 25px;
+        font-size: 30px;
+    }
+    .line{
+       left: 25px; 
+    }
+    .banh2{
+        left: 25px; 
+    }
+    .button{
+        left: 25px; 
+    }
+    .btn{
+       left: 25px; 
+    }
+    .banicon{
+       left: 25px; 
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .banh1{
+font-size: 25px;
+    }
+}
+
+
+
+ .banh1::before{
+    content: "";
+    animation: animate infinite 8s;
+    transition: 0.6s ease-in-out;
+}
+@keyframes animate{
+    0%{
+        content: "JOIN THE UNMANNED SYSTEMS REVOLUTION";
+    }
+    50%{
+        content: "UNLEASH TRUE INTEROPERABILITY";
+    }
+    100%{
+        content: "ENHANCE WARFIGHTER CAPABILITY";
+    }
+} 

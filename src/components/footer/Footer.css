@@ -1,0 +1,241 @@
+.footer{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+  margin-top: -420px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1024px){
+    .footer{
+        height: 100vh;
+    
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        height: 160vh;
+        margin-top: -150px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .footer{
+        height: 210vh;
+
+
+     /* text-align: center; */
+transform: translateY(-50px);    
+}
+}
+
+.footimage{
+    margin-left: 130px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .footimage{
+       margin-left: 35px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .footimage{
+       margin-left: 35px;
+       align-items: left;
+    }
+}
+
+.foottext{
+    justify-content: right;
+    align-items: right;
+    margin-top: 70px;
+    margin-left: 300px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .33s ease-in-out ;
+}
+
+@media only screen and (max-width: 768px){
+    .foottext{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .foottext{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+.fottext0{
+    transition: all .33s ease-in-out ;
+}
+.fottext1{
+    transition: all .33s ease-in-out ;
+}
+.fottext2{
+    transition: all .33s ease-in-out ;
+}
+.fottext3{
+    transition: all .33s ease-in-out ;
+}
+.fottext0:hover{
+    color: rgb(61, 61, 156);
+}
+.fottext1:hover{
+    color: rgb(61, 61, 156);
+}
+.fottext2:hover{
+    color: rgb(61, 61, 156);
+}
+.fottext3:hover{
+    color: rgb(61, 61, 156);
+}
+
+
+.footsectext{
+    justify-content: right;
+    align-items: right;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .33s ease-in-out ;
+}
+
+@media only screen and (max-width: 1024px){
+    .footsectext{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .footsectext{
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .footsectext{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.fotsectext1{
+    transition: all .33s ease-in-out ;
+}
+.fotsectext2{
+    transition: all .33s ease-in-out ;
+}
+.fotsectext3{
+    transition: all .33s ease-in-out ;
+}
+
+
+.fotsectext1:hover{
+    color: rgb(61, 61, 156);
+}
+.fotsectext2:hover{
+    color: rgb(61, 61, 156);
+}
+
+.fotsectext3:hover{
+    color: rgb(61, 61, 156);
+}
+
+.footthirdtext{
+    margin-top: 70px;
+    margin-left: -60px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .33s ease-in-out ;
+}
+@media only screen and (max-width: 1024px){
+    .footthirdtext{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .footthirdtext{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.fotthirdtext1{
+    transition: all .33s ease-in-out ;
+}
+.fotthirdtext2{
+    transition: all .33s ease-in-out ;
+}
+.fotthirdtext3{
+    transition: all .33s ease-in-out ;
+}
+
+.fotthirdtext1:hover{
+    color: rgb(61, 61, 156);
+}
+.fotthirdtext2:hover{
+    color: rgb(61, 61, 156);
+}
+.fotthirdtext3:hover{
+    color: rgb(61, 61, 156);
+}
+/* text */
+.footlasttext{
+    margin-left: 130px;
+    margin-top: 70px;
+    font-size: 13px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px){
+    .footlasttext{
+        margin-left: 35px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .footlasttext{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footlasticon{
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+  margin-top: 30px;
+    font-size: 17px;
+    margin-left: 430px;
+    color: #fff;
+    letter-spacing: 8px;
+}
+@media only screen and (max-width:1024px){
+    .footlasticon{
+        margin-left: 340px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .footlasticon{
+        margin-left: 150px;
+    }
+}
+ @media only screen and (max-width: 425px){
+    .footlasticon{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+    }
+} 
+ 
